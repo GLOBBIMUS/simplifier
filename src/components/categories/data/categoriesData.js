@@ -1,20 +1,11 @@
 import { css } from "glamor";
 
-// let fadeIn = css.keyframes({
-//     from: { opacity: 0 },
-//     to: { opacity: 1 },
-//     from: { opacity: 1 },
-//     to: { opacity: 0 }
-// })
-
 let fadeIn = css.keyframes({
     '0%': { opacity: 0 },
     '25%': { opacity: 1 },
     '50%': { opacity: 1 },
     '75%': { opacity: 0 }
 })
-
-
 
 export const categories = {
     algorithms: {
@@ -35,6 +26,10 @@ export const categories = {
     },
     default: {
         styles: css({
+            " svg": {
+                height: 200,
+                width: 200
+            },
             " .first": {
                 opacity: 0,
                 animation: `${fadeIn} 2s infinite`,

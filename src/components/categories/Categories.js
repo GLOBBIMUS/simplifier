@@ -12,10 +12,15 @@ export default function Categories() {
                     Object.keys(categories).map(item => {
                         return (
                             <div key={item} className="col-md-4 item">
-                                <ReactSVG
-                                    src={categories[item].svg}
-                                    {...categories[item].styles}
-                                />
+                                <div className="item-block">
+                                    <ReactSVG
+                                        src={categories[item].svg}
+                                        {...categories[item].styles}
+                                    />
+                                    <h4 className="category-title">
+                                        {categories[item].description}
+                                    </h4>
+                                </div>
                             </div>
                         );
                     })

@@ -5,7 +5,26 @@
     margin-right: auto;
 }
 
-.row{
+.item-block {
+    background-color: #222222;
+    border-radius: 10px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.item-block:hover {
+    background-color: #393939;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.row {
     margin-right: 0;
     margin-left: 0;
-  }
+}
+
+.category-title {
+    font-family: 'Roboto Mono', monospace;
+    color: #e0e0e0;
+    padding-bottom: 3%;
+}
