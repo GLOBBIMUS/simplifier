@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 200 200" width="200pt" height="200pt">
+    <g>
+        <g>
+            <circle class="first" vector-effect="non-scaling-stroke" cx="50.00000000000003" cy="100" r="14.000000000000004" fill="none" stroke-width="3" stroke="rgb(235,235,235)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3" />
+            <circle class="second" vector-effect="non-scaling-stroke" cx="100" cy="100" r="14" fill="none" stroke-width="3" stroke="rgb(235,235,235)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3" />
+            <circle class="third" vector-effect="non-scaling-stroke" cx="149.99999999999997" cy="100" r="14" fill="none" stroke-width="3" stroke="rgb(235,235,235)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3" />
+        </g>
+    </g>
+</svg>
